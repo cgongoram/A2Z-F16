@@ -18,15 +18,20 @@
 //   console.log('Example app listening at http://' + host + ':' + port);
 // }
 
-var firebase = require('firebase');
+ var firebase = require('firebase');
 
 var config = {
-  apiKey: "AIzaSyA-VyZJOZVqXZj82wvVMkfJedDEhqXcIh8",
-  authDomain: "a2zitp-6519b.firebaseapp.com",
-  databaseURL: "https://a2zitp-6519b.firebaseio.com",
-  storageBucket: "a2zitp-6519b.appspot.com",
-  messagingSenderId: "363965061200"
+  apiKey: "AIzaSyC9eOIio496mGiHrBXokNppkCQCWZZa69Q",
+  authDomain: "fir-email-login-8ca57.firebaseapp.com",
+  databaseURL: "https://fir-email-login-8ca57.firebaseio.com",
+  storageBucket: "fir-email-login-8ca57",
+  messagingSenderId: "41996600250"
 };
+
+
+
+
+
 firebase.initializeApp(config);
 database = firebase.database();
 var ref = database.ref("fruits");
